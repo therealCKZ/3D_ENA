@@ -1,0 +1,33 @@
+# --- Data ---
+# Exclude raw and processed data (save space and keep data private)
+data/raw/*
+data/processed/*
+# Keep the folders themselves by not ignoring .gitkeep files
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+.ipynb_checkpoints/
+
+# --- R ---
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# --- Outputs ---
+# Exclude generated visualizations so they don't clutter the repo
+outputs/*.html
+outputs/*.png
+outputs/*.pdf
+!outputs/.gitkeep
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db

@@ -1,0 +1,1 @@
+install.packages(c("rENA", "plotly", "htmlwidgets", "magrittr"))

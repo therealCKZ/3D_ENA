@@ -1,0 +1,5 @@
+bertopic
+pandas
+numpy
+scikit-learn
+plotly
